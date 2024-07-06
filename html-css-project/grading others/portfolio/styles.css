@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: #333333;
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-family: 'Markazi Text', serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Markazi Text', serif;
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+nav {
+    background-color: #333333;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: #EDEFEE;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    flex: 1;
+    min-width: 200px;
+    background-color: #495E57;
+    color: #EDEFEE;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.promo {
+    color: white;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.promo p {
+    font-size: 1.5rem;
+}
+
+.openinghours {
+    position: relative;
+    left: 1rem;
+}
+
+footer {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer img {
+    width: 10%;
+}
+
+footer .copyright {
+    border-top: 2px solid;
+    text-align: right;
+    margin-top: 1rem;
+}
+
+a {
+    color: #F4CE14;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+form {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+button {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #EDEFEE;
+}
+
+.booking {
+    text-align: center;
+}
+
+.menu-section {
+    flex-direction: column;
+}
+
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-img {
+    flex: 1;
+}
+
+.menu-img img {
+    border-radius: 0.25rem;
+}
+
+.menu-title {
+    flex: 7;
+}
+
+.menu-price {
+    flex: 2;
+    text-align: right;
+    font-style: italic;
+    color: #F4CE14;
+}

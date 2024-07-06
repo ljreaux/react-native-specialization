@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Home</title>
+    <!-- Meta tags -->
+    <meta name="description" content="A brief description">
+    <meta name="author" content="Little Lemon Table Booking">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Markazi Text and Karla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Little Lemon Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="book.html">Book</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article class="promo">
+                <h1>Book a Table</h1>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2 class="booking">Table Booking Details</h2>
+                <form method="POST" action="index.html">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="name" id="name" name="name" required>
+                      </div>
+                    <div>
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                      <label for="date">Date</label>
+                      <input type="date" id="date" name="data" required>
+                    </div>
+                    <div>
+                      <label for="people">People</label>
+                      <input type="number" id="people" name="people" min="1" max="8" value="4">
+                    </div>
+                    <div>
+                      <label for="policy">
+                        <input type="checkbox" id="policy" name="policy" required>
+                        I agree to the cancellation policy
+                      </label>
+                    </div>
+                    <button type="submit">Book Now</button>
+                  </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <img src="logo_footer.png" alt="Little Lemon Footer Logo">
+        </div>
+        <div class="copyright">
+            <p>Copyright Little Lemon</p>
+        </div>
+    </footer>
+</body>
+</html>
